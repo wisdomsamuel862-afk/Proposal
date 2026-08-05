@@ -41,11 +41,26 @@
         background-color:white;
       }
     </style>
+  <script>
+    text const="Thank you Dad for all your sacrifices, Dad I'm so proud to be your son";
+    let i=0;
+    function typewriter() {
+      if (i<text.lenght) {
+        document.getElementByld
+          ("Thank you Dad for your sacrifices, may God bless you").innerHTML+=
+          text.charAt(i);
+        i++;
+        setTimeout (typewriter,60);// 60=speed.smaller=faster
+      }
+    }
+    typewriter();
+  </script>
     <body>
       <img src= "https://i.postimg.cc/mrWM4mBm/1785069331862-extended-image-cropped-image.jpg" alt="me">
     <h1> DAD this is important </h1>
     <p> DAD I really need a phone to learn skills and do many other things, like connect with my classmates and other things please </p>
     <p>so DAD if you agree on my proposal click on the button below </p>
+      <p id="Thank you Dad for your sacrifices, may God bless you"> </p>
     <button onclick="alert('I love you DAD and I will really appreciate if you get me a phone I will do all my best to keep the phone safe please DAD')"</button>
     </body>
 </html>
